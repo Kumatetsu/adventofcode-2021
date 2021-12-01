@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  node:
+    image: "node:17"
+    container_name: node_container
+    working_dir: /code
+    tty: true
+    volumes:
+     - ./:/code

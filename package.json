@@ -5,6 +5,9 @@
   "repository": "git@github.com:Kumatetsu/adventofcode-2021.git",
   "author": "Jean <billaudjean@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
     "@types/jest": "^27.0.3",
     "jest": "^27.4.3",
